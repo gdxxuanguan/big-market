@@ -1,8 +1,36 @@
-25-02-04.19:39:00.831 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_432 on yanami with PID 26712 (started by 22673 in D:\projects\big-market\big-market-app)
-25-02-04.19:39:00.832 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
-25-02-04.19:39:02.800 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 2.38 seconds (JVM running for 3.191)
-25-02-04.19:39:03.028 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-25-02-04.19:39:03.993 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-25-02-04.19:39:04.256 [main            ] INFO  AwardDaoTest           - 测试结果：[{"awardConfig":"1,100","awardDesc":"用户积分【优先透彻规则范围，如果没有则走配置】","awardId":101,"awardKey":"user_credit_random"},{"awardConfig":"5","awardDesc":"OpenAI 增加使用次数","awardId":102,"awardKey":"openai_use_count"},{"awardConfig":"10","awardDesc":"OpenAI 增加使用次数","awardId":103,"awardKey":"openai_use_count"},{"awardConfig":"20","awardDesc":"OpenAI 增加使用次数","awardId":104,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4","awardDesc":"OpenAI 增加模型","awardId":105,"awardKey":"openai_model"},{"awardConfig":"dall-e-2","awardDesc":"OpenAI 增加模型","awardId":106,"awardKey":"openai_model"},{"awardConfig":"dall-e-3","awardDesc":"OpenAI 增加模型","awardId":107,"awardKey":"openai_model"},{"awardConfig":"100","awardDesc":"OpenAI 增加使用次数","awardId":108,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4,dall-e-2,dall-e-3","awardDesc":"OpenAI 增加模型","awardId":109,"awardKey":"openai_model"}]
-25-02-04.19:39:04.267 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
-25-02-04.19:39:04.287 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+25-02-06.12:40:32.600 [main            ] INFO  StrategyArmoryDispatchTest - Starting StrategyArmoryDispatchTest using Java 1.8.0_432 on yanami with PID 88716 (started by 22673 in D:\projects\big-market\big-market-app)
+25-02-06.12:40:32.602 [main            ] INFO  StrategyArmoryDispatchTest - The following 1 profile is active: "dev"
+25-02-06.12:40:33.322 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-02-06.12:40:33.325 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-02-06.12:40:33.354 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-02-06.12:40:34.859 [main            ] INFO  Version                - Redisson 3.23.4
+25-02-06.12:40:35.604 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-02-06.12:40:35.686 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-02-06.12:40:37.022 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-02-06.12:40:37.067 [main            ] INFO  StrategyArmoryDispatchTest - Started StrategyArmoryDispatchTest in 4.778 seconds (JVM running for 5.402)
+25-02-06.12:40:37.741 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-02-06.12:40:38.045 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-02-06.12:40:38.136 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：102 - 奖品ID值
+25-02-06.12:40:38.348 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：104 - 4000 策略配置
+25-02-06.12:40:38.350 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：104 - 5000 策略配置
+25-02-06.12:40:38.352 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：102 - 6000 策略配置
+25-02-06.12:40:38.374 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+25-02-06.12:40:38.394 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+25-02-06.12:42:00.821 [main            ] INFO  StrategyArmoryDispatchTest - Starting StrategyArmoryDispatchTest using Java 1.8.0_432 on yanami with PID 89816 (started by 22673 in D:\projects\big-market\big-market-app)
+25-02-06.12:42:00.821 [main            ] INFO  StrategyArmoryDispatchTest - The following 1 profile is active: "dev"
+25-02-06.12:42:01.428 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-02-06.12:42:01.430 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-02-06.12:42:01.450 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-02-06.12:42:02.798 [main            ] INFO  Version                - Redisson 3.23.4
+25-02-06.12:42:03.491 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-02-06.12:42:03.502 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-02-06.12:42:04.796 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-02-06.12:42:04.847 [main            ] INFO  StrategyArmoryDispatchTest - Started StrategyArmoryDispatchTest in 4.323 seconds (JVM running for 4.943)
+25-02-06.12:42:05.165 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-02-06.12:42:05.423 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-02-06.12:42:05.843 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：101 - 奖品ID值
+25-02-06.12:42:06.006 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：103 - 4000 策略配置
+25-02-06.12:42:06.008 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：103 - 5000 策略配置
+25-02-06.12:42:06.010 [main            ] INFO  StrategyArmoryDispatchTest - 测试结果：102 - 6000 策略配置
+25-02-06.12:42:06.029 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+25-02-06.12:42:06.047 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.

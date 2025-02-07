@@ -1,5 +1,6 @@
 package com.xuanguan.infrastructure.persistent.dao;
 
+import com.xuanguan.domain.strategy.model.entity.StrategyAwardEntity;
 import com.xuanguan.infrastructure.persistent.po.StrategyAward;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -13,4 +14,5 @@ public interface IStrategyAwardDao {
 
     List<StrategyAward> queryStrategyAwardList();
 
+    List<StrategyAward> queryStrategyAwardListByStrategyId(Long strategyId);
 }
